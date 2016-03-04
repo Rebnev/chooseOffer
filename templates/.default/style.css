@@ -1,0 +1,31 @@
+.offer_selector .name{
+	padding:6px 12px;	
+	margin: 0;
+}
+.offer_selector ul.selector{
+	list-style: none;	
+	margin: 0;
+	padding: 0;
+}
+.offer_selector li.option{
+	border:1px solid black;
+	display: inline-block;
+	vertical-align: middle;
+}
+
+.offer_selector li.offer-disabled{
+	opacity: 0.5;	
+}
+.offer_selector li.offer-choosen{
+	background-color:rgba(225,225,225,1.00);
+}
+.ADDTOCART{
+	background-color: grey;
+	color: white;
+	padding:25px 10px;
+	display: inline-block;	
+	margin-top: 15px;
+}
+.ADDTOCART.active{
+	background-color: black;	
+}
